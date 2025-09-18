@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Confirmed - The Ordinary Serum</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Noto Sans Bengali', Arial, sans-serif;
+      background: linear-gradient(135deg, #e6f9f0, #f3fff4);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .confirm-box {
+      background: #fff;
+      border-radius: 25px;
+      padding: 40px 30px;
+      max-width: 650px;
+      width: 100%;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+      text-align: center;
+    }
+
+    .success-icon {
+      width: 80px;
+      height: 80px;
+      background: #d1f7e2;
+      color: #038f3e;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 40px;
+      margin: 0 auto 20px;
+      box-shadow: 0 4px 12px rgba(3,143,62,0.3);
+    }
+
+    .btn-main {
+      background: linear-gradient(135deg, #ff6f32, #ff914d);
+      color: #fff;
+      font-weight: bold;
+      padding: 12px 28px;
+      border-radius: 50px;
+      border: none;
+      box-shadow: 0 5px 15px rgba(255,111,50,0.4);
+      transition: 0.3s;
+    }
+    .btn-main:hover {
+      background: linear-gradient(135deg, #ff914d, #ff6f32);
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(255,111,50,0.6);
+    }
+
+    .order-details {
+      text-align: left;
+      background: #f8fdf9;
+      padding: 20px;
+      border-radius: 15px;
+      margin-top: 25px;
+    }
+    .order-details p {
+      margin-bottom: 8px;
+    }
+    .order-details span {
+      font-weight: 600;
+      color: #038f3e;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="confirm-box">
+    <!-- Success Icon -->
+    <div class="success-icon">✔</div>
+
+    <!-- Heading -->
+    <h2 class="fw-bold text-success">🎉 আপনার অর্ডার কনফার্ম হয়েছে!</h2>
+    <p class="text-muted mb-4">আমাদের টিম খুব দ্রুত আপনার সাথে যোগাযোগ করবে।  
+      ধন্যবাদ <b>CosmeticBazaar</b> থেকে কেনাকাটা করার জন্য।</p>
+
+    <!-- Order Details -->
+    <div class="order-details">
+      <h5 class="mb-3">📦 অর্ডারের বিস্তারিত</h5>
+      <p><span>অর্ডার আইডি:</span> #ORD1258</p>
+      <p><span>পণ্য:</span> The Ordinary - Argireline Solution 10% Serum (30ml)</p>
+      <p><span>পরিমাণ:</span> 1 টি</p>
+      <p><span>মূল্য:</span> 1150৳</p>
+      <p><span>শিপিং:</span> 100৳</p>
+      <p><span>মোট:</span> 1250৳</p>
+      <p><span>পেমেন্ট মেথড:</span> Cash on Delivery</p>
+      <p><span>ডেলিভারি ঠিকানা:</span> ঢাকা, বাংলাদেশ</p>
+    </div>
+
+    <!-- Buttons -->
+    <div class="mt-4 d-flex flex-column flex-sm-row justify-content-center gap-3">
+      <a href="landing.html" class="btn btn-main">🏠 হোমে ফিরে যান</a>
+      <a href="#" class="btn btn-success">📞 সাপোর্টে কল করুন</a>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
